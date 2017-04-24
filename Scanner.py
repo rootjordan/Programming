@@ -20,7 +20,7 @@ class colors:
 
 
 def Nmap_scan():
-    print colors.RED + "Nmap scan starting[\n"+ IP + "]" colors.WHITE
+    print colors.RED + "Nmap scan starting[\n"+ IP + "]" + colors.WHITE
     subprocess.Popen("nmap -p- " +IP+ " > Desktop/Scanning/nmap.txt", shell=True)
 def Nikto_scan():
     print colors.RED + "Nikto scan starting on [\n" + IP + "]" +colors.WHITE
