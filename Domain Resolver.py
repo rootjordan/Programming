@@ -13,12 +13,11 @@ except socket.error:
 
 print "[#] Socket created"
 print "[#] Loading shell"
-
+print "[#] Commands"
+print "[#] Exit = exit"
+print "[#] Resolver ip = [Hostname]"
 
 while True:
-	print "[#] Commands"
-	print "[#] Exit = exit"
-	print "[#] Resolver ip = [Hostname]"
 	shell = raw_input("Enter Host > ")
 	if shell == "exit":
 		sys.exit()
