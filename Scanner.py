@@ -8,7 +8,7 @@ Created By: Jordan
 Usage: python [file name]
 Purpose:
 Scans an ip that the user entered with nmap and nikto
-Requirements: Nmap installed, Nikto installed, Linux
+Requirements: Nmap installed, Nikto installed, Linux. Python 2.7
 """
 
 print "Thank you for using this program\n"
