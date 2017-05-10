@@ -1,6 +1,10 @@
 import socket
 import sys
 
+"""
+Need python 2.7
+"""
+
 if len(sys.argv) != 1:
 	print "[#] Usage: python [filename.py]"
 	sys.exit()
