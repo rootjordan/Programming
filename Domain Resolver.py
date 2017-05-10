@@ -29,10 +29,3 @@ while True:
 		print "\n[#] Unable to get ip address please try again.\n"
 		continue
 	print "\nHostname: " + shell + "\nIp: " + GrabIp
-
-
-
-
-	##########################################
-	#Need to make if hostname is valid of not#
-	##########################################
